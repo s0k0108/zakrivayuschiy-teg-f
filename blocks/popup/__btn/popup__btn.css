@@ -11,6 +11,7 @@
     border: 2px solid var(--border-color);
     transition: box-shadow 0.3s ease;
     position: relative;
+    cursor: pointer;
 }
 
 .popup__btn::before {
