@@ -1,0 +1,7 @@
+.header__title {
+    margin: 20px 0 25px;
+    padding: 0;
+    box-sizing: border-box;
+    font: normal 400 clamp(14px, 3.5vw, 23px) / normal var(--accent-font);
+    color: var(--text-color)
+}

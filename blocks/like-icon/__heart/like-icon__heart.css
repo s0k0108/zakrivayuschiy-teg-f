@@ -1,0 +1,14 @@
+.like-icon.is-liked .like-icon__heart {
+    transform-origin: center;
+    animation: heart-grow 0.3s ease-in 0.1s alternate;
+}
+
+@keyframes heart-grow {
+    0% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(1.5);
+    }
+}

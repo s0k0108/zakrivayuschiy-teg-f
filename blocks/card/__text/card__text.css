@@ -1,0 +1,7 @@
+.card__text {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: var(--text-color);
+    font: normal var(--main-text-font-weight) 18px / 21px var(--main-font);
+}

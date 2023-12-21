@@ -1,0 +1,28 @@
+.like-icon__sparks {
+    opacity: 0;
+}
+
+.like-icon.is-liked .like-icon__sparks {
+    animation: show-sparks 0.3s ease-in 0.3s alternate;
+}
+
+@keyframes show-sparks {
+    0% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(1.5);
+    }
+}
+
+
+@keyframes show-sparks {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}

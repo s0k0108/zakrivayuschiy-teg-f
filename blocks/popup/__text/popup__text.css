@@ -1,0 +1,9 @@
+.popup__text {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    font: normal 400 14px / 150% var(--accent-font);
+    width: 100%;
+    color: var(--text-color);
+}

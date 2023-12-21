@@ -1,0 +1,9 @@
+.like-icon.is-liked .like-icon__contour {
+    fill: var(--like-icon-main-color);
+    transition: fill .3s linear 0.06s;
+}
+
+.like-icon:not(.is-liked) .like-icon__contour {
+    fill: var(--like-icon-border-color);
+    transition: fill .3s linear 0.01s;
+}

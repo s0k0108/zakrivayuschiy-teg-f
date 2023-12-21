@@ -1,0 +1,7 @@
+.header__logo {
+    margin: clamp(120px, 30vw, 136px) 0 0;
+    padding: 0;
+    box-sizing: border-box;
+    font: normal 400 clamp(49px, 13vw, 65px) / normal var(--accent-font);
+    color: var(--text-color)
+}

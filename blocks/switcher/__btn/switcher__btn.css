@@ -1,0 +1,42 @@
+.switcher__btn {
+    margin: 0;
+    padding: 0 0 0 20px;
+    box-sizing: border-box;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    text-transform: uppercase;
+    font: normal 400 14px / normal var(--accent-font);
+    color: var(--text-color);
+    transition: opacity .3s ease;
+}
+
+.switcher__btn:hover {
+    opacity: .6;
+
+}
+
+.switcher__btn:disabled {
+    opacity: .6;
+}
+
+.switcher__btn:focus {
+    outline: none;
+}
+
+.switcher__btn::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background-color: var(--text-color);
+    transition: width 0.3s ease;
+}
+
+.switcher__btn:focus-visible {
+    opacity: .6;
+}
+
+.switcher__btn:focus-visible::after {
+    width: 100%;
+}

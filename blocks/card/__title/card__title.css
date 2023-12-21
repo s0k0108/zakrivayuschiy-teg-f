@@ -1,0 +1,14 @@
+.card__title {
+    margin: auto 0;
+    padding: 3.5px 10px 5.5px;
+    box-sizing: border-box;
+    font: normal var(--main-title-font-weight) 18px / normal var(--main-font);
+    border-bottom: 2px solid var(--border-color);
+    color: var(--text-color);
+}
+
+@media (min-width: 500px) {
+    .card__title {
+        padding: 3px 10px;
+    }
+}

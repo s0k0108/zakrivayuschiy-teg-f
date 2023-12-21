@@ -1,0 +1,3 @@
+.card__image_filter_saturate {
+    filter: saturate(250%);
+}

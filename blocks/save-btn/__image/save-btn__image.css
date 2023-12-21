@@ -1,0 +1,11 @@
+.save-btn__image {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 28px;
+    color: var(--btn-text-color);
+    height: 28px;
+    z-index: 2;
+    position: relative;
+    mix-blend-mode: difference;
+}

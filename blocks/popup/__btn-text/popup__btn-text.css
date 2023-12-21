@@ -1,0 +1,7 @@
+.popup__btn-text {
+    font: normal 400 14px / 90% var(--accent-font);
+    text-transform: uppercase;
+    color: var(--btn-text-color);
+    z-index: 2;
+    mix-blend-mode: difference;
+}

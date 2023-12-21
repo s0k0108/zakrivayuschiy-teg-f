@@ -1,0 +1,10 @@
+.popup__wrapper {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 39px auto;
+    column-gap: 20px;
+    row-gap: 30px;
+}

@@ -1,0 +1,9 @@
+.popup__img {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 39px;
+    height: 39px;
+    color: var(--text-color);
+    align-self: center;
+}

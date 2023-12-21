@@ -1,0 +1,8 @@
+.save-btn__text {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font: normal 400 14px / 90% var(--accent-font);
+    color: var(--btn-text-color);
+    mix-blend-mode: difference;
+}

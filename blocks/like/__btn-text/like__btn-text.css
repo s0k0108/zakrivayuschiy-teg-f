@@ -1,0 +1,9 @@
+.like__btn-text {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: var(--btn-text-color);
+    font: normal 400 14px / 90% var(--accent-font);
+    z-index: 2;
+    mix-blend-mode: difference;
+}

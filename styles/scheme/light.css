@@ -1,0 +1,13 @@
+:root {
+    --bg-gradient: repeating-linear-gradient(#d3d3d3 0, #d3d3d3 2px, transparent 2px, transparent 4px),
+                   repeating-linear-gradient(90deg, #d3d3d3 0, #d3d3d3 2px, transparent 2px, transparent 4px),
+                   linear-gradient(180deg, #E7E7E7 0%, #1A1A1A 100%);
+    --text-color: #000;
+    --bg-color: #fff;
+    --border-color: #000;
+    --main-title-font-weight: 700;
+    --main-text-font-weight: 400;
+    --like-icon-border-color: #000;
+    --btn-text-color: #fff;
+    --active-floppy: #fff;
+}

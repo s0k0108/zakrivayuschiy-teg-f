@@ -1,0 +1,21 @@
+.popup {
+    margin: auto;
+    padding: 30px 42px;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 345px;
+    min-height: 191px;
+    background-color: var(--bg-color);
+    border: 2px solid var(--border-color);
+}
+
+.popup::backdrop {
+    background-color: rgb(0 0 0 / .75);
+}
+
+@media (min-width: 500px) {
+    .popup {
+        padding: 30px;
+        max-width: 357px;
+    }
+}

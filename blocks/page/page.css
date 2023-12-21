@@ -1,0 +1,11 @@
+.page {
+    margin: 0 auto;
+    padding: 100px 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-inline-size: 320px;
+    width: 100%;
+    background: var(--bg-gradient) no-repeat center / auto 100vh fixed;
+}

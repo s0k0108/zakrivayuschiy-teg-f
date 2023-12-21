@@ -1,0 +1,23 @@
+.card__watermark {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: absolute;
+    top: 23px;
+    right: clamp(13px, 3vw, 25px);
+    font: normal 400 14px / 22px var(--accent-font);
+    mix-blend-mode: hard-light;
+    color: var(--text-color);
+    text-shadow: 0 1px 0 var(--bg-color),
+                 1px 0 0 var(--bg-color),
+                 0 -1px 0 var(--bg-color),
+                 -1px 0 0 var(--bg-color);
+    opacity: 0.5;
+}
+
+@supports((text-stroke: 1px var(--bg-color)) or (-webkit-text-stroke: 1px var(--bg-color))) {
+    .card__watermark {
+        -webkit-text-stroke: 1px var(--bg-color);
+        text-shadow: none;
+    }
+}

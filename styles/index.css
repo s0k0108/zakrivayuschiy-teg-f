@@ -1,0 +1,61 @@
+@import "./scheme/variables.css";
+
+@import "../fonts/fonts.css";
+
+@import "../blocks/page/page.css";
+@import "../blocks/page/page_fixed.css";
+
+@import "../blocks/header/header.css";
+@import "../blocks/header/__logo/header__logo.css";
+@import "../blocks/header/__title/header__title.css";
+
+@import "../blocks/switcher/switcher.css";
+@import "../blocks/switcher/__item/switcher__item.css";
+@import "../blocks/switcher/__btn/switcher__btn.css";
+@import "../blocks/switcher/__btn/_active/switcher__btn_active.css";
+
+@import "../blocks/main/main.css";
+@import "../blocks/main/__cards/main__cards.css";
+
+@import "../blocks/card/card.css";
+@import "../blocks/card/__title/card__title.css";
+@import "../blocks/card/__picture/card__picture.css";
+@import "../blocks/card/__watermark/card__watermark.css";
+@import "../blocks/card/__picture-wrapper/card__picture-wrapper.css";
+@import "../blocks/card/__image/card__image.css";
+@import "../blocks/card/__info/card__info.css";
+@import "../blocks/card/__text-wrapper/card__text-wrapper.css";
+@import "../blocks/card/__text/card__text.css";
+@import "../blocks/card/__image/_filter/card__image_filter_blur.css";
+@import "../blocks/card/__image/_filter/card__image_filter_sepia.css";
+@import "../blocks/card/__image/_filter/card__image_filter_saturate.css";
+@import "../blocks/card/__image/_filter/card__image_filter_brightness.css";
+@import "../blocks/card/__image/_filter/card__image_filter_invert.css";
+@import "../blocks/card/__image/_filter/card__image_filter_contrast.css";
+@import "../blocks/card/__image/_filter/card__image_filter_grayscale.css";
+@import "../blocks/card/__image/_filter/card__image_filter_opacity.css";
+
+@import "../blocks/like/like.css";
+@import "../blocks/like/__btn/like__btn.css";
+@import "../blocks/like/__icon/like__icon.css";
+@import "../blocks/like/__btn-text/like__btn-text.css";
+
+@import "../blocks/like-icon/like-icon.css";
+@import "../blocks/like-icon/__sparks/like-icon__sparks.css";
+@import "../blocks/like-icon/__main-body/like-icon__main-body.css";
+@import "../blocks/like-icon/__core/like-icon__core.css";
+@import "../blocks/like-icon/__contour/like-icon__contour.css";
+@import "../blocks/like-icon/__heart/like-icon__heart.css";
+
+@import "../blocks/footer/footer.css";
+
+@import "../blocks/save-btn/save-btn.css";
+@import "../blocks/save-btn/__image/save-btn__image.css";
+@import "../blocks/save-btn/__text/save-btn__text.css";
+
+@import "../blocks/popup/popup.css";
+@import "../blocks/popup/__img/popup__img.css";
+@import "../blocks/popup/__wrapper/popup__wrapper.css";
+@import "../blocks/popup/__text/popup__text.css";
+@import "../blocks/popup/__btn/popup__btn.css";
+@import "../blocks/popup/__btn-text/popup__btn-text.css";

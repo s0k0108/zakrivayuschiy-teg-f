@@ -1,0 +1,23 @@
+.like-icon__core {
+    fill: transparent;
+}
+
+.like-icon:hover .like-icon__core {
+    fill: var(--like-icon-border-color);
+    transition: fill .3s linear;
+}
+
+.like-icon:not(:hover) .like-icon__core {
+    fill: transparent;
+    transition: fill .3s linear 0.03s;
+}
+
+.like-icon:active .like-icon__core {
+    fill: var(--like-icon-main-color);
+    transition: fill .3s linear;
+}
+
+.like-icon.is-liked .like-icon__core {
+    fill: var(--like-icon-main-color);
+    transition: fill .3s linear;
+}

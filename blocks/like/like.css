@@ -1,0 +1,8 @@
+.like {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    align-self: flex-end;
+    display: flex;
+    gap: 7px;
+}
